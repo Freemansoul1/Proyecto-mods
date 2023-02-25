@@ -1,0 +1,490 @@
+module NHM
+{
+	imports
+	{
+		Base
+	}
+
+    recipe Fix Regular Helbard
+    {
+        DuctTape,
+        UnusableMetal=6,
+        IngotIron,
+        RegularHelbard,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:RegularHelbard,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=2,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer3_OnGiveXP,
+    }
+
+    recipe Fix Advanced Helbard
+    {
+        DuctTape=2,
+        ScrapMetal=5,
+        UnusableMetal=4,
+        IngotIron=2,
+        AdvancedHelbard,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:AdvancedHelbard,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=4,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer5_OnGiveXP,
+    }
+
+    recipe Fix Regular Sword
+    {
+        DuctTape,
+        UnusableMetal=4,
+        IngotIron,
+        RegularMetalSword,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:RegularMetalSword,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=3,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer3_OnGiveXP,
+    }
+
+    recipe Fix Advanced Sword
+    {
+        DuctTape=2,
+        ScrapMetal=4,
+        UnusableMetal=4,
+        IngotIron=2,
+        AdvancedMetalSword,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:AdvancedMetalSword,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=6,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer8_OnGiveXP,
+    }
+
+    recipe Fix Pipe Sword
+    {
+        DuctTape,
+        UnusableMetal=8,
+        IngotIron,
+        PipeSwordBlade/PipeSwordBlunt,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:PipeSwordBlade,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=4,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer6_OnGiveXP,
+    }
+
+    recipe Fix RegularMace
+    {
+        IngotBronze,
+        UnusableMetal=4,
+        DuctTape,
+        RegularMace,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:RegularMace,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=3,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer5_OnGiveXP,
+    }
+
+    recipe Fix AdvancedMace
+    {
+        IngotIron,
+        UnusableMetal=6,
+        DuctTape=2,
+        AdvancedMace,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:AdvancedMace,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=5,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer7_OnGiveXP,
+    }
+
+    recipe Fix RegularBigHammer
+    {
+        IngotBronze,
+        UnusableMetal=2,
+        DuctTape,
+        RegularBigHammer,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:RegularBigHammer,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=4,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer6_OnGiveXP,
+    }
+
+    recipe Fix AdvancedBigHammer
+    {
+        IngotIron,
+        UnusableMetal=4,
+        DuctTape=2,
+        AdvancedBigHammer,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:AdvancedBigHammer,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=6,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer10_OnGiveXP,
+    }
+
+    recipe Fix RegularAxe
+    {
+        IngotBronze=2,
+        UnusableMetal=2,
+        DuctTape,
+        RegularAxe,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:RegularAxe,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=4,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer8_OnGiveXP,
+    }
+
+    recipe Fix AdvancedAxe
+    {
+        IngotIron,
+        UnusableMetal=4,
+        DuctTape=2,
+        AdvancedAxe,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:AdvancedAxe,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=6,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer15_OnGiveXP,
+    }
+
+    recipe Fix RegularKnife
+    {
+        IngotBronze,
+        UnusableMetal=2,
+        DuctTape,
+        RegularKnife,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:RegularKnife,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=4,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer8_OnGiveXP,
+    }
+
+    recipe Fix AdvancedKnife
+    {
+        IngotIron,
+        UnusableMetal=4,
+        DuctTape=2,
+        AdvancedKnife,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:AdvancedKnife,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=6,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer15_OnGiveXP,
+    }
+
+    recipe Fix Crossbow
+    {
+        IngotIron,
+        Screws=6,
+        Rope,
+        HandmadeCrossbow,
+        keep BallPeenHammer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:HandmadeCrossbow,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=5,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer10_OnGiveXP,
+    }
+
+    recipe Fix CompositeBow
+    {
+        Screws=2,
+        Rope,
+        destroy CBow,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:CBow,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=1,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer3_OnGiveXP,
+    }
+
+    recipe Fix RecursiveBow
+    {
+        IngotIron,
+        Screws=4,
+        Rope,
+        RBow,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:RBow,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=4,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer8_OnGiveXP,
+    }
+
+    recipe Fix BoneHelmet
+    {
+        Bone=2,
+        Hat_BoneHelmet,
+        NoBrokenItems:false,
+        Result:Hat_BoneHelmet,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Leatherworking=3,
+        OnCreate:RepairFull,
+        OnGiveXP:Leatherworking3_OnGiveXP,
+    }
+
+    recipe Fix BoneArmor
+    {
+        Bone=3,
+        ReadyThinLeather=2,
+        BoneArmor,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:BoneArmor,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Leatherworking=2,
+        OnCreate:RepairFull,
+        OnGiveXP:Leatherworking3_OnGiveXP,
+    }
+
+    recipe Fix BoneBracer
+    {
+        Bone,
+        ReadyThinLeather=1,
+        BoneBracer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:BoneBracer,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Leatherworking=1,
+        OnCreate:RepairFull,
+        OnGiveXP:Leatherworking3_OnGiveXP,
+    }
+
+    recipe Fix BoneLegPads
+    {
+        Bone=2,
+        ReadyThinLeather=1,
+        BoneLegPads,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:BoneLegPads,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Leatherworking=1,
+        OnCreate:RepairFull,
+        OnGiveXP:Leatherworking3_OnGiveXP,
+    }
+
+    recipe Fix MetalHelmet
+    {
+        IngotSteel=2,
+        Hat_MetalHelmet,
+        NoBrokenItems:false,
+        Result:Hat_MetalHelmet,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=6,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer6_OnGiveXP,
+    }
+
+    recipe Fix MetalArmor
+    {
+        IngotSteel=4,
+        ReadyThinLeather=2,
+        MetalArmor,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:MetalArmor,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=5,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer5_OnGiveXP,
+    }
+
+    recipe Fix MetalBracer
+    {
+        IngotSteel=2,
+        Belt2,
+        MetalBracer,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:MetalBracer,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=4,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer3_OnGiveXP,
+    }
+
+    recipe Fix MetalLegPads
+    {
+        IngotSteel=2,
+        Belt2=2,
+        MetalLegPads,
+        keep Screwdriver,
+        NoBrokenItems:false,
+        Result:MetalLegPads,
+        Time:200.0,
+        Category:Fixing,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=4,
+        OnCreate:RepairFull,
+        OnGiveXP:Engineer3_OnGiveXP,
+    }
+}

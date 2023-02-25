@@ -1,0 +1,674 @@
+module NHM
+{
+    imports
+    {
+        Base
+    }
+
+recipe Make Pistol1
+    {
+        BarrelPistol,
+        Pistolbody,
+        Triggergroup,
+        Spring,
+        keep Screwdriver,
+        Screws=10,
+        Result:PistolB1,
+        Category:Engineer,
+        SkillRequired:Engineering=3,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer5_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make Pistol2
+    {
+        PistolB2RecipeNew,
+        ChromedBarrelPistol,
+        HIQLPistolbody,
+        Triggergroup,
+        Spring,
+        keep Screwdriver,
+        Screws=10,
+        Result:PistolB2,
+        Category:Engineer,
+        SkillRequired:Engineering=5,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer7_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make Revolver1
+    {
+        BarrelPistol,
+        Pistolbody,
+        Triggergroup,
+        Revolverdrum,
+        keep Screwdriver,
+        Screws=10,
+        Result:Revolver1,
+        SkillRequired:Engineering=3,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer5_OnGiveXP,
+        Time:200.0,
+    }
+
+
+recipe Make Revolver2
+    {
+        Revolver2RecipeNew,
+        ChromedBarrelPistol,
+        HIQLPistolbody,
+        Triggergroup,
+        Revolverdrum,
+        keep Screwdriver,
+        Screws=10,
+        Result:Revolver2,
+        SkillRequired:Engineering=5,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer7_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make SMG1
+    {
+        SMG1RecipeNew,
+        BarrelPistol,
+        Pistolbody,
+        Triggergroup,
+        Spring,
+        BoltgroupSA,
+        keep Screwdriver,
+        Screws=10,
+        Result:SMG1,
+        SkillRequired:Engineering=4,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer6_OnGiveXP,
+        Time:200.0,
+    }
+
+
+recipe Make SMG2
+    {
+        SMG2RecipeNew,
+        ChromedBarrelPistol,
+        HIQLPistolbody,
+        Triggergroup,
+        Spring,
+        BoltgroupSA,
+        keep Screwdriver,
+        Screws=10,
+        Result:SMG2,
+        SkillRequired:Engineering=7,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer10_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make Rifle0
+    {
+        MetalPipe,
+        Woodenparts,
+        Triggergroup,
+        Boltgroup,
+        keep Screwdriver,
+        Screws=10,
+        Result:RifleB0,
+        SkillRequired:Engineering=4,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer5_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make Rifle1
+    {
+        RifleB1RecipeNew,
+        BarrelRifle,
+        Woodenparts,
+        Triggergroup,
+        Boltgroup,
+        Riflebody,
+        keep Screwdriver,
+        Screws=10,
+        Result:RifleB1,
+        SkillRequired:Engineering=6,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer7_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make Rifle2
+    {
+        RifleB2RecipeNew,
+        ChromedBarrelRifle,
+        HIQLRiflebody,
+        Woodenparts,
+        Triggergroup,
+        Boltgroup,
+        keep Screwdriver,
+        Screws=10,
+        Result:RifleB2,
+        SkillRequired:Engineering=8,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer15_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make Semiauto Rifle1
+    {
+        RifleSA1RecipeNew,
+        BarrelRifle,
+        Spring,
+        Triggergroup,
+        BoltgroupSA,
+        Riflebody,
+        Woodenparts,
+        keep Screwdriver,
+        Screws=10,
+        Result:RifleSA1,
+        SkillRequired:Engineering=5,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer8_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make Semiauto Rifle2
+    {
+        RifleSA2RecipeNew,
+        ChromedBarrelRifle,
+        HIQLRiflebody,
+        Spring,
+        Triggergroup,
+        BoltgroupSA,
+        Gastube,
+        keep Screwdriver,
+        Screws=10,
+        Result:RifleSA2,
+        SkillRequired:Engineering=7,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer10_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make Assault RifleM1
+    {
+        AssaultRifleM1RecipeNew,
+        BarrelRifle,
+        Riflebody,
+        Triggergroup,
+        Spring,
+        BoltgroupSA,
+        Gastube,
+        keep Screwdriver,
+        Screws=10,
+        Result:AssaultRifleM1,
+        SkillRequired:Engineering=7,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer15_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make Assault RifleM2
+    {
+        AssaultRifleM2RecipeNew,
+        ChromedBarrelRifle,
+        HIQLRiflebody,
+        Triggergroup,
+        Spring,
+        BoltgroupSA,
+        Gastube,
+        keep Screwdriver,
+        Screws=10,
+        Result:AssaultRifleM2,
+        SkillRequired:Engineering=9,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer25_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make Assault RifleAK1
+    {
+        AssaultRifleAK1RecipeNew,
+        BarrelRifle,
+        Riflebody,
+        Triggergroup,
+        Spring,
+        BoltgroupSA,
+        Gastube,
+        keep Screwdriver,
+        Screws=10,
+        Result:AssaultRifleAK1,
+        SkillRequired:Engineering=6,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer15_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make Assault RifleAK2
+    {
+        AssaultRifleAK2RecipeNew,
+        ChromedBarrelRifle,
+        HIQLRiflebody,
+        Triggergroup,
+        Spring,
+        BoltgroupSA,
+        Gastube,
+        keep Screwdriver,
+        Screws=10,
+        Result:AssaultRifleAK2,
+        SkillRequired:Engineering=8,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer25_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make ShotgunDB
+    {
+        MetalPipe=2,
+        Woodenparts,
+        Triggergroup,
+        keep Screwdriver,
+        Screws=10,
+        Result:DoubleB,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer4_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make Shotgun1
+    {
+        Shotgun1RecipeNew,
+        MetalPipe=2,
+        Woodenparts,
+        Triggergroup,
+        Boltgroup,
+        keep Screwdriver,
+        Screws=10,
+        Result:ShotgunB1,
+        SkillRequired:Engineering=4,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer8_OnGiveXP,
+        Time:200.0,
+    }
+
+recipe Make Shotgun2
+    {
+        Shotgun2RecipeNew,
+        MetalPipe=2,
+        Riflebody,
+        Triggergroup,
+        Boltgroup,
+        Revolverdrum,
+        keep Screwdriver,
+        Screws=10,
+        Result:ShotgunB2,
+        SkillRequired:Engineering=7,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer15_OnGiveXP,
+        Time:200.0,
+    }
+
+
+recipe Make PistolMag
+{
+        Spring,
+        SheetMetal,
+        keep Screwdriver,
+        Screws=10,
+        Result:PistolMag,
+        SkillRequired:Engineering=3,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer5_OnGiveXP,
+        Time:200.0,
+}
+
+recipe Make SMGMag
+{
+        Spring,
+        SheetMetal,
+        keep Screwdriver,
+        Screws=10,
+        Result:SMGMag,
+        SkillRequired:Engineering=4,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer7_OnGiveXP,
+        Time:200.0,
+}
+
+recipe Make ARMag
+{
+        Spring,
+        SheetMetal = 2,
+        keep Screwdriver,
+        Screws=10,
+        Result:ARMag,
+        SkillRequired:Engineering=6,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer10_OnGiveXP,
+        Time:200.0,
+}
+
+recipe Make 308Mag
+{
+        Spring,
+        SheetMetal,
+        keep Screwdriver,
+        Screws=10,
+        Result:308Mag,
+        SkillRequired:Engineering=5,
+        Category:Engineer,
+        NearItem:Engineer Workbench,
+        OnGiveXP:Engineer8_OnGiveXP,
+        Time:200.0,
+}
+
+
+recipe Dismantle Pistol1
+    {
+       NHM.PistolB1,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunPistol1_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle Pistol2
+    {
+       NHM.PistolB2,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunPistol2_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle SMG1
+    {
+       NHM.SMG1,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunSMG1_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle SMG2
+    {
+       NHM.SMG2,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunSMG2_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle Revolver1
+    {
+       NHM.Revolver1,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunRevolver1_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle Revolver2
+    {
+       NHM.Revolver2,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunRevolver2_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle RifleB0
+    {
+       NHM.RifleB0,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunRifleB0_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle RifleB1
+    {
+       NHM.RifleB1,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunRifleB1_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle RifleB2
+    {
+       NHM.RifleB2,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunRifleB2_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle RifleSA1
+    {
+       NHM.RifleSA1,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunRifleSA1_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+
+recipe Dismantle RifleSA2
+    {
+       NHM.RifleSA2,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunRifleSA2_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle AssaultRifleM1
+    {
+       NHM.AssaultRifleM1,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunAssaultRifle1_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle AssaultRifleM2
+    {
+       NHM.AssaultRifleM2,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunAssaultRifle2_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle AssaultRifleAK1
+    {
+       NHM.AssaultRifleAK1,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunAssaultRifle1_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle AssaultRifleAK2
+    {
+       NHM.AssaultRifleAK2,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunAssaultRifle2_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle ShotgunDB
+    {
+       NHM.DoubleB,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunShotgunDB_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle Shotgun1
+    {
+       NHM.ShotgunB1,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunShotgun1_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+recipe Dismantle Shotgun2
+    {
+       NHM.ShotgunB2,
+       keep Screwdriver,
+
+       NoBrokenItems:false,
+       Result:Screws=2,
+       Time:200.0,
+       OnCreate:GunShotgun2_OnCreate,
+       Category:Dismantle,
+       AnimNode:Disassemble,
+       Prop1:Screwdriver,
+       Prop2:CDplayer,
+       Sound:Dismantle,
+    }
+
+}

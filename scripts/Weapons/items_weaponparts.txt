@@ -1,0 +1,137 @@
+module NHM
+{
+    imports
+    {
+        Base
+    }
+
+item BarrelRifle
+    {
+        Weight	=	0.5,
+ 	    Type			= Normal,
+        DisplayName	= BarrelRifle,
+        Icon	=	Gunbarrel,
+        MetalValue = 20,
+    }
+
+item ChromedBarrelRifle
+    {
+        Weight	=	0.5,
+        Type			= Normal,
+        DisplayName	= ChromedBarrelRifle,
+        Icon	=	Gunbarrel,
+        MetalValue = 20,
+    }
+
+item BarrelPistol
+    {
+        Weight	=	0.5,
+ 	    Type			= Normal,
+        DisplayName	= BarrelPistol,
+        Icon	=	Gunbarrel,
+        MetalValue = 20,
+    }
+
+item ChromedBarrelPistol
+        {
+            Weight	=	0.5,
+     	    Type			= Normal,
+            DisplayName	= ChromedBarrelPistol,
+            Icon	=	Gunbarrel,
+            MetalValue = 20,
+        }
+
+item Riflebody
+    {
+        Weight	=	0.5,
+ 	    Type			= Normal,
+        DisplayName	= Riflebody,
+        Icon	=	Riflebody,
+        MetalValue = 20,
+    }
+
+item HIQLRiflebody
+        {
+            Weight	=	0.5,
+     	    Type			= Normal,
+            DisplayName	= HIQLRiflebody,
+            Icon	=	Riflebody,
+            MetalValue = 20,
+        }
+
+item Woodenparts
+    {
+        Weight	=	0.5,
+ 	    Type			= Normal,
+        DisplayName	= Woodenparts,
+        Icon	=	Woodenstock,
+    }
+
+item Triggergroup
+    {
+        Weight	=	0.5,
+ 	    Type			= Normal,
+        DisplayName	= Triggergroup,
+        Icon	=	Guntrigger,
+    }
+
+item Boltgroup
+    {
+        Weight	=	0.5,
+ 	    Type			= Normal,
+        DisplayName	= Boltgroup,
+        Icon	=	Gunbolt,
+    }
+
+item BoltgroupSA
+    {
+        Weight	=	0.5,
+ 	    Type			= Normal,
+        DisplayName	= BoltgroupSA,
+        Icon	=	GunboltSA,
+    }
+
+item Gastube
+    {
+        Weight	=	0.5,
+ 	    Type			= Normal,
+        DisplayName	= Gastube,
+        Icon	=	Gastube,
+    }
+
+item Spring
+    {
+        Weight	=	0.5,
+ 	    Type			= Normal,
+        DisplayName	= Spring,
+        Icon	=	Spring,
+    }
+
+item Revolverdrum
+    {
+        Weight	=	0.5,
+ 	    Type			= Normal,
+        DisplayName	= Revolverdrum,
+        Icon	=	Revolverdrum,
+        MetalValue = 20,
+    }
+
+item Pistolbody
+    {
+        Weight	=	0.5,
+ 	    Type			= Normal,
+        DisplayName	= Pistolbody,
+        Icon	=	Pistolbody,
+        MetalValue = 20,
+    }
+
+item HIQLPistolbody
+    {
+        Weight	=	0.5,
+        Type			= Normal,
+        DisplayName	= HIQLPistolbody,
+        Icon	=	Pistolbody,
+        MetalValue = 20,
+    }
+
+}

@@ -1,0 +1,333 @@
+module NHM
+{
+	imports
+	{
+		Base
+	}
+
+
+recipe Make Pistol barrel
+{
+	IngotSteel=2,
+	BlowTorch=5,
+    keep WeldingMask,
+    Result:BarrelPistol,
+    Time:150.0,
+    Category:Engineer,
+    NearItem:Engineer Workbench,
+    Sound:PartsCraft,
+    SkillRequired:Engineering=3,
+}
+
+recipe Make Gun bolt
+{
+	IngotSteel,
+	Needle,
+	IngotIron,
+	BlowTorch=5,
+	keep WeldingMask,
+    Result:Boltgroup,
+    Time:150.0,
+    Category:Engineer,
+    NearItem:Engineer Workbench,
+    Sound:PartsCraft,
+    OnGiveXP:Engineer2_OnGiveXP,
+    SkillRequired:Engineering=4,
+}
+
+recipe Make Gun Bolt semiauto
+{
+	IngotSteel,
+	Needle,
+	IngotIron,
+	Spring,
+	BlowTorch=5,
+	keep WeldingMask,
+	Result:BoltgroupSA,
+    Time:400.0,
+    Category:Engineer,
+    NearItem:Engineer Workbench,
+    OnGiveXP:Engineer2_OnGiveXP,
+    Sound:PartsCraft,
+    SkillRequired:Engineering=4,
+}
+
+recipe Make Trigger group
+{
+    ScrapMetal=3,
+	IngotIron,
+	Spring,
+	BlowTorch=5,
+	keep WeldingMask,
+	Result:Triggergroup,
+    Time:200.0,
+    Category:Engineer,
+    NearItem:Engineer Workbench,
+    OnGiveXP:Engineer4_OnGiveXP,
+    SkillRequired:Engineering=2,
+    Sound:PartsCraft,
+}
+
+recipe Make Pistol body
+{
+    IngotSteel,
+    ScrapMetal=3,
+    Spring,
+    Screws=2,
+    BlowTorch=10,
+    keep WeldingMask,
+    Result:Pistolbody,
+    Time:250.0,
+    Category:Engineer,
+    NearItem:Engineer Workbench,
+    OnGiveXP:Engineer6_OnGiveXP,
+    SkillRequired:Engineering=3,
+    Sound:PartsCraft,
+}
+
+
+recipe Make Revolver drum
+{
+    IngotSteel,
+    BlowTorch=10,
+    keep WeldingMask,
+    Result:Revolverdrum,
+    Time:400.0,
+    Category:Engineer,
+    NearItem:Engineer Workbench,
+    OnGiveXP:Engineer10_OnGiveXP,
+    Sound:PartsCraft,
+    SkillRequired:Engineering=3,
+}
+
+recipe Make Rifle body
+{
+    IngotSteel=2,
+    IngotNickel,
+    Screws=3,
+    BlowTorch=10,
+    keep WeldingMask,
+    Result:Riflebody,
+    Time:400.0,
+    Category:Engineer,
+    NearItem:Engineer Workbench,
+    OnGiveXP:Engineer4_OnGiveXP,
+    Sound:PartsCraft,
+    SkillRequired:Engineering=5,
+}
+
+recipe Make Spring
+{
+    UnusableMetal=5,
+    BlowTorch=5,
+    keep WeldingMask,
+    Result:Spring,
+    Time:500.0,
+    Category:Engineer,
+    Sound:Anvil,
+    NearItem:NHAnvil,
+    OnGiveXP:Engineer10_OnGiveXP,
+    AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:Source=1,
+      SkillRequired:Engineering=2,
+}
+
+recipe Make Wooden furniture
+{
+    Plank=2,
+    Woodglue=2,
+    DuctTape,
+    keep Screwdriver,
+    Result:Woodenparts,
+    Time:400.0,
+    Category:Engineer,
+    Sound:Anvil,
+    NearItem:NHAnvil,
+    OnGiveXP:Engineer4_OnGiveXP,
+    AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:Source=1,
+      SkillRequired:Engineering=1,
+}
+
+recipe Make Rifle barrel
+{
+    IngotSteel=3,
+    BlowTorch=15,
+    keep WeldingMask,
+    Result:BarrelRifle,
+    Time:600.0,
+    Category:Engineer,
+    NearItem:NHAnvil,
+    OnGiveXP:Engineer6_OnGiveXP,
+      AnimNode:BuildLow,
+      Prop1:Hammer,
+      Sound:Anvil,
+    SkillRequired:Engineering=3,
+}
+
+recipe Make Chromed Rifle barrel
+{
+    IngotSteel=3,
+    IngotChromium=2,
+    BlowTorch=20,
+    keep WeldingMask,
+    Result:ChromedBarrelRifle,
+    Time:700.0,
+    Category:Engineer,
+    OnGiveXP:Engineer8_OnGiveXP,
+    NearItem:NHAnvil,
+      AnimNode:BuildLow,
+      Prop1:Hammer,
+      Sound:Anvil,
+    SkillRequired:Engineering=7,
+}
+
+recipe Make Chromed Pistol barrel
+{
+    IngotSteel=2,
+    IngotChromium,
+    BlowTorch=10,
+    keep WeldingMask,
+    Result:ChromedBarrelPistol,
+    OnGiveXP:Engineer4_OnGiveXP,
+    Time:500.0,
+    Category:Engineer,
+    Sound:Anvil,
+    NearItem:NHAnvil,
+    AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:Source=1,
+    SkillRequired:Engineering=5,
+}
+
+recipe Make Hiql Rifle body
+{
+    IngotSteel=3,
+    IngotNickel=2,
+    Screws=3,
+    Spring=2,
+    BlowTorch=15,
+    keep WeldingMask,
+    Result:HIQLRiflebody,
+    Time:600.0,
+    OnGiveXP:Engineer6_OnGiveXP,
+    Category:Engineer,
+    Sound:Anvil,
+    NearItem:NHAnvil,
+      AnimNode         : BuildLow,
+      Prop1         : Hammer,
+    SkillRequired:Engineering=7,
+}
+
+recipe Make Hiql Pistol body
+{
+    IngotSteel=2,
+    IngotNickel=1,
+    Spring=2,
+    Screws=2,
+    BlowTorch=10,
+    keep WeldingMask,
+    Result:HIQLPistolbody,
+    Time:700.0,
+    Category:Engineer,
+    OnGiveXP:Engineer8_OnGiveXP,
+    Sound:Anvil,
+    NearItem:NHAnvil,
+        AnimNode         : BuildLow,
+        Prop1         : Hammer,
+    SkillRequired:Engineering=5,
+}
+
+recipe Make Chrome Rifle barrel
+{
+    BarrelRifle,
+    IngotChromium=2,
+    BlowTorch=10,
+    keep WeldingMask,
+    Result:ChromedBarrelRifle,
+    OnGiveXP:Engineer4_OnGiveXP,
+    Time:500.0,
+    Category:Engineer,
+    Sound:Anvil,
+    NearItem:NHAnvil,
+    AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:Source=1,
+    SkillRequired:Engineering=7,
+}
+
+recipe Make Chrome Pistol barrel
+{
+    BarrelPistol,
+    IngotChromium,
+    BlowTorch=5,
+    keep WeldingMask,
+    Result:ChromedBarrelPistol,
+    Time:600.0,
+    OnGiveXP:Engineer6_OnGiveXP,
+    Category:Engineer,
+    Sound:Anvil,
+    NearItem:NHAnvil,
+      AnimNode:BuildLow,
+      Prop1:Hammer,
+    SkillRequired:Engineering=3,
+}
+
+recipe Make Upgrade Rifle body
+{
+    Riflebody,
+    IngotNickel=1,
+    Spring=2,
+    BlowTorch=10,
+    keep WeldingMask,
+    Result:HIQLRiflebody,
+    Time:700.0,
+    Category:Engineer,
+    OnGiveXP:Engineer8_OnGiveXP,
+    Sound:Anvil,
+    NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+    SkillRequired:Engineering=7,
+}
+
+recipe Make Upgrade Pistol body
+{
+    Pistolbody,
+    IngotSteel=1,
+    IngotNickel=1,
+    Spring,
+    BlowTorch=5,
+    keep WeldingMask,
+    Result:HIQLPistolbody,
+    OnGiveXP:Engineer4_OnGiveXP,
+    Time:500.0,
+    Category:Engineer,
+    Sound:Anvil,
+    NearItem:NHAnvil,
+    AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:Source=1,
+    SkillRequired:Engineering=5,
+}
+
+recipe Make Gas Tube
+{
+    IngotBronze=2,
+    BlowTorch=10,
+    keep WeldingMask,
+    Result:Gastube,
+    OnGiveXP:Engineer4_OnGiveXP,
+    Time:500.0,
+    Category:Engineer,
+    Sound:Anvil,
+    NearItem:NHAnvil,
+    AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:Source=1,
+    SkillRequired:Engineering=6,
+}
+
+}

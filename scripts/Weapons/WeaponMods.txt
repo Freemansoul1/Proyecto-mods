@@ -1,0 +1,283 @@
+module NHM
+{
+	imports
+	{
+		Base
+	}
+
+    model Muzzle
+	{
+		mesh = weapons/parts/Muzzle,
+		texture = weapons/parts/Muzzle,
+	}
+
+    item Muzzle
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Iron Sight,
+        Icon = ScopeIronSight,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        MaxRangeModifier = 3,
+        MountOn = RifleB1;RifleB2;RifleSA1;RifleSA2; AssaultRifleM1;AssaultRifleM2;AssaultRifleAK1;AssaultRifleAK2;PistolB1;PistolB2;Revolver1;Revolver2;SMG1;SMG2,,
+        PartType = Scope,
+        Tooltip = Tooltip_IronSight,
+        MetalValue = 15,
+        WorldStaticModel = Muzzle,
+    }
+
+    model 2Scope
+	{
+		mesh = weapons/parts/2Scope,
+		texture = weapons/parts/2Scope,
+	}
+
+    item 2Scope
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = x2 Scope,
+        Icon = Scope2x,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        AngleModifier = 0.005,
+        MaxRangeModifier = 5,
+        MinRangeModifier = 2,
+        AimingTimeModifier = -1,
+        MountOn = RifleB1;RifleB2;RifleSA1;RifleSA2;AssaultRifleM1;AssaultRifleM2;AssaultRifleAK1;AssaultRifleAK2,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+        WorldStaticModel = 2Scope,
+    }
+
+    model 4Scope
+	{
+		mesh = weapons/parts/4Scope,
+		texture = weapons/parts/4Scope,
+	}
+
+    item 4Scope
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = x4 Scope,
+        Icon = Scope4x,
+        Weight = 0.4,
+        WeightModifier = 0.4,
+        AngleModifier = 0.01,
+        MaxRangeModifier = 10,
+        MinRangeModifier = 5,
+        AimingTimeModifier = -3,
+        MountOn = RifleB1;RifleB2;RifleSA1;RifleSA2,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+        WorldStaticModel = 4Scope,
+    }
+
+    model 8Scope
+	{
+		mesh = weapons/parts/8Scope,
+		texture = weapons/parts/8Scope,
+	}
+
+    item 8Scope
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = x8 Scope,
+        Icon = Scope8x,
+        Weight = 0.8,
+        WeightModifier = 0.8,
+        AngleModifier = 0.02,
+        MaxRangeModifier = 16,
+        MinRangeModifier = 8,
+        AimingTimeModifier = -5,
+        MountOn = RifleB1;RifleB2;RifleSA1;RifleSA2,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+        WorldStaticModel = 8Scope,
+    }
+
+    model SlingLeather
+	{
+		mesh = weapons/parts/SlingLeather,
+		texture = weapons/parts/SlingLeather,
+	}
+
+    item SlingLeather
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Leather Sling,
+        Icon = GunSling,
+        Weight = 0.2,
+        WeightModifier = -0.8,
+        ReloadTimeModifier = 1,
+        MountOn = RifleB1;RifleB2;RifleSA1;RifleSA2;ShotgunB1;ShotgunB2;AssaultRifleM1;AssaultRifleM2;AssaultRifleAK1;AssaultRifleAK2;SMG2,
+        PartType = Sling,
+        StaticModel = LeatherSling,
+        Tooltip = Tooltip_Sling,
+    }
+
+    model ImprovedStock
+	{
+		mesh = weapons/parts/ImprovedStock,
+		texture = weapons/parts/ImprovedStock,
+	}
+
+    item ImprovedStock
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Improved Stock,
+        Icon = RifleFibreglassStock,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        RecoilDelayModifier = -5.0,
+        MountOn = RifleB1;RifleB2;RifleSA1;RifleSA2;ShotgunB1;ShotgunB2;AssaultRifleM1;AssaultRifleM2;AssaultRifleAK1;AssaultRifleAK2;SMG2,
+        PartType = Stock,
+        Tooltip = Tooltip_FiberglassStock,
+    }
+
+
+    model Holosight
+	{
+		mesh = weapons/parts/Holosight,
+		texture = weapons/parts/Holosight,
+	}
+
+    item Holosight
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Holosight,
+        Icon = RedDot,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        AimingTimeModifier = 3,
+        HitChanceModifier = 5,
+        ReloadTimeModifier = 2,
+        MountOn = PistolB1; PistolB2; Revolver1; Revolver2; AssaultRifleM1;AssaultRifleM2;AssaultRifleAK1;AssaultRifleAK2; RifleB1;RifleB2;RifleSA1;RifleSA2;SMG1;SMG2,
+        PartType = Scope,
+        Tooltip = Tooltip_RedDot,
+        StaticModel = RedDot,
+        MetalValue = 15,
+        WorldStaticModel = Holosight,
+    }
+
+    model ChokeTubeFullNH
+	{
+		mesh = weapons/parts/MuzzleCompensator,
+		texture = weapons/parts/MuzzleCompensator,
+	}
+
+    item ChokeTubeFullNH
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Choke Tube Full NH,
+        Icon = ShotgunChoke,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        AngleModifier = 0.05,
+        DamageModifier = 0.5,
+        MountOn = ShotgunB1;ShotgunB2,
+        PartType = Canon,
+        Tooltip = Tooltip_ChokeTubeFull,
+        MetalValue = 12,
+        WorldStaticModel = Shotgun_Choke_Ground,
+    }
+
+    model ChokeTubeImprovedNH
+	{
+		mesh = weapons/parts/MuzzleCompensator,
+		texture = weapons/parts/MuzzleCompensator,
+	}
+
+    item ChokeTubeImprovedNH
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Choke Tube Improved NH,
+        Icon = ShotgunChoke,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        AngleModifier = -0.02,
+        HitChanceModifier = 5,
+        AimingTimeModifier = 2,
+        MountOn = ShotgunB1;ShotgunB2,
+        PartType = Canon,
+        Tooltip = Tooltip_ChokeTubeImproved,
+        MetalValue = 12,
+        WorldStaticModel = Shotgun_Choke_Ground,
+    }
+
+    model SlingRope
+	{
+		mesh = weapons/parts/SlingRope,
+		texture = weapons/parts/SlingRope,
+	}
+
+    item SlingRope
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Rope Sling,
+        Icon = RopeSling,
+        Weight = 0.1,
+        WeightModifier = -0.6,
+        MountOn = RifleB1;RifleB2;RifleSA1;RifleSA2;ShotgunB1;ShotgunB2;AssaultRifleM1;AssaultRifleM2;AssaultRifleAK1;AssaultRifleAK2;SMG2,
+        PartType = Sling,
+        Tooltip = Tooltip_Sling,
+        StaticModel = RopeSling,
+        WorldStaticModel = RopeSling,
+    }
+
+    model MuzzleCompensator
+	{
+		mesh = weapons/parts/MuzzleCompensator,
+		texture = weapons/parts/MuzzleCompensator,
+	}
+
+    item MuzzleCompensator
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Muzzle Compensator,
+        Icon = MuzzleCompensator,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        RecoilDelayModifier = -5.0,
+        MountOn = RifleB1;RifleB2;RifleSA1;RifleSA2;AssaultRifleM1;AssaultRifleM2;AssaultRifleAK1;AssaultRifleAK2;SMG1;SMG2,
+        PartType = Canon,
+        Tooltip = Tooltip_MuzzleCompensator,
+        StaticModel = MuzzleCompensator,
+        WorldStaticModel = MuzzleCompensator,
+    }
+
+    item Bipod
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Improvised Bipod,
+        Icon = Bipod,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        AimingTimeModifier = -3,
+        HitChanceModifier = 10,
+        ReloadTimeModifier = 5,
+        MountOn = RifleB1;RifleB2;RifleSA1;RifleSA2,
+        PartType = Clip,
+        Tooltip = Tooltip_Bipod,
+    }
+
+    model Bipod
+	{
+		mesh = weapons/parts/Bipod,
+		texture = weapons/parts/Bipod,
+	}
+}

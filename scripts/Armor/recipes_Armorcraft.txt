@@ -1,0 +1,149 @@
+module NHM
+{
+	imports
+	{
+		Base
+	}
+
+    recipe Make BoneHelmet
+    {
+        Bone=3,
+        ReadyThinLeather=1,
+        Belt2,
+        keep Needle,
+        Thread=2,
+        Result:Hat_BoneHelmet,
+        Time:200.0,
+        Sound:ClothesRipping,
+        AnimNode:RipSheets,
+		Category:Leatherworking,
+        NearItem:Leatherworking Workbench,
+        SkillRequired:Leatherworking=3,
+        OnGiveXP:Leatherworking12_OnGiveXP,
+    }
+
+    recipe Make BoneArmor
+    {
+        Bone=5,
+        ReadyThinLeather=4,
+        Belt2=2,
+        keep Needle,
+        Thread=4,
+        Result:BoneArmor,
+        Time:200.0,
+        Sound:ClothesRipping,
+        AnimNode:RipSheets,
+		Category:Leatherworking,
+        NearItem:Leatherworking Workbench,
+        SkillRequired:Leatherworking=2,
+        OnGiveXP:Leatherworking12_OnGiveXP,
+    }
+
+    recipe Make BoneLegPads
+    {
+        Bone=4,
+        ReadyThinLeather=3,
+        Belt2=2,
+        keep Needle,
+        Thread=3,
+        Result:BoneLegPads,
+        Time:200.0,
+        Sound:ClothesRipping,
+        AnimNode:RipSheets,
+		Category:Leatherworking,
+        NearItem:Leatherworking Workbench,
+        SkillRequired:Leatherworking=1,
+        OnGiveXP:Leatherworking12_OnGiveXP,
+    }
+
+    recipe Make BoneBracer
+    {
+        Bone=2,
+        ReadyThinLeather=2,
+        Belt2=2,
+        keep Needle,
+        Thread=3,
+        Result:BoneBracer,
+        Time:200.0,
+        Sound:ClothesRipping,
+        AnimNode:RipSheets,
+		Category:Leatherworking,
+        NearItem:Leatherworking Workbench,
+        SkillRequired:Leatherworking=1,
+        OnGiveXP:Leatherworking12_OnGiveXP,
+    }
+
+   
+    recipe Make MetalHelmet
+    {
+        IngotSteel=3,
+        IngotNickel=1,
+        IngotBronze=1,
+        Belt2,
+        keep BallPeenHammer,
+        Result: Hat_MetalHelmet,
+        Category:Welding,
+        Time:200.0,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=6,
+        OnGiveXP:MetalWelding10_OnGiveXP,
+    }
+
+    recipe Make MetalArmor
+    {
+        IngotSteel=6,
+        IngotNickel=1,
+        IngotBronze=2,
+        Belt2=3,
+        keep BallPeenHammer,
+        Result:MetalArmor,
+        Category:Welding,
+        Time:200.0,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=5,
+        OnGiveXP:MetalWelding10_OnGiveXP,
+    }
+
+
+    recipe Make MetalLegPads
+    {
+        IngotSteel=4,
+        IngotBronze=1,
+        Belt2=4,
+        keep BallPeenHammer,
+        Result:MetalLegPads,
+        Category:Welding,
+        Time:200.0,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=4,
+        OnGiveXP:MetalWelding6_OnGiveXP,
+    }
+
+
+    recipe Make MetalBracer
+    {
+        IngotSteel=4,
+        IngotBronze=1,
+        Belt2=2,
+        keep BallPeenHammer,
+        Result:MetalBracer,
+        Time:200.0,
+        Category:Welding,
+        NearItem:NHAnvil,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Anvil,
+        SkillRequired:Engineering=4,
+        OnGiveXP:MetalWelding6_OnGiveXP,
+    }
+
+}

@@ -1,0 +1,79 @@
+module Base
+{		
+	
+	item BoneArmor
+   	{
+		ClothingItem = BoneArmor,
+        Type = Clothing,
+        DisplayName = Bone Armor,
+        BodyLocation = TorsoExtra,
+		CanBeEquipped = TorsoExtra,
+        Icon = BoneArmor,
+        BloodLocation = UpperBody; LowerBody,
+		ScratchDefense = 80,
+		BiteDefense = 80,
+        Insulation = 0,
+        WindResistance = 0,
+        Weight = 1.5,
+        ConditionLowerChanceOneIn = 15,
+        ConditionMax = 15,
+        BulletDefense = 35,
+        RemoveOnBroken = false,
+		Tooltip = "Protects your Chest",
+    }
+
+
+    item BoneLegPads
+    {
+        Type = Clothing,
+        DisplayName = Bone Knee Pads,
+        ClothingItem = BoneLegPads,
+        BodyLocation = LowerLegs,
+        BloodLocation = LowerLegs,
+        Icon = BoneLegPads,
+        BiteDefense = 50,
+        ScratchDefense = 65,
+        BulletDefense = 25,
+        Weight = 1,
+    }
+
+    item BoneBracer
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Bone Bracer,
+        ClothingItem = BoneBracer,
+        BodyLocation = LowerArms,
+        Icon = BoneBracer,
+        BloodLocation = LowerArms,
+        Insulation = 0.15,
+        WindResistance = 0.15,
+        BiteDefense = 62,
+        ScratchDefense = 70,
+        BulletDefense = 20,
+    }
+
+	item Hat_BoneHelmet
+	{
+		Type = Clothing,
+		DisplayName = Bone Helmet,
+		ClothingItem = Hat_BoneHelmet,
+		BodyLocation = Hat,
+		IconsForTexture = BoneHelmet,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 25,
+		ScratchDefense = 25,
+		BulletDefense = 30,
+		ChanceToFall = 1,
+		Insulation = 0,
+		WaterResistance = 0.75,
+        Weight = 1.5,
+        CanHaveHoles = true,
+        RemoveOnBroken = false,
+        ConditionLowerChanceOneIn = 2,
+        ConditionMax = 2,
+        BreakSound			= BreakMetalItem,
+		Tooltip 		= "Handmade Protection of The Head From Metal",
+    }
+}

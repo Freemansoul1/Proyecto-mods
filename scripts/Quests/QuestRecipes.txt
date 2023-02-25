@@ -1,0 +1,673 @@
+module NHM
+{
+    imports
+    {
+        Base
+    }
+
+    item AssaultRifleM1Recipe
+    {
+        DisplayName = AssaultRifleM1Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make Assault RifleM1,
+        ReplaceOnUse    =   AssaultRifleM1Recipe,
+        Icon = AssaultRifleRecipe,
+        Weight = 0.4,
+    }
+
+    item AssaultRifleM2Recipe
+    {
+        DisplayName = AssaultRifleM2Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make Assault RifleM2,
+        ReplaceOnUse    =   AssaultRifleM2Recipe,
+        Icon = AssaultRifleRecipe,
+        Weight = 0.4,
+    }
+
+    item AssaultRifleAK1Recipe
+    {
+        DisplayName = AssaultRifleAK1Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make Assault RifleAK1,
+        ReplaceOnUse    =   AssaultRifleAK1Recipe,
+        Icon = AssaultRifleRecipe,
+        Weight = 0.4,
+    }
+
+    item AssaultRifleAK2Recipe
+    {
+        DisplayName = AssaultRifleAK2Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make Assault RifleAK2,
+        ReplaceOnUse    =   AssaultRifleAK2Recipe,
+        Icon = AssaultRifleRecipe,
+        Weight = 0.4,
+    }
+
+    item RifleB1Recipe
+    {
+        DisplayName = RifleB1Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make Rifle1,
+        ReplaceOnUse    =   RifleB1Recipe,
+        Icon = RifleRecipe,
+        Weight = 0.4,
+    }
+
+    item RifleB2Recipe
+    {
+        DisplayName = RifleB2Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make Rifle2,
+        ReplaceOnUse    =   RifleB2Recipe,
+        Icon = RifleRecipe,
+        Weight = 0.4,
+    }
+
+    item RifleSA1Recipe
+    {
+        DisplayName = RifleSA1Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make Semiauto Rifle1,
+        ReplaceOnUse    =   RifleSA1Recipe,
+        Icon = RifleRecipe,
+        Weight = 0.4,
+    }
+
+    item RifleSA2Recipe
+    {
+        DisplayName = RifleSA2Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make Semiauto Rifle2,
+        ReplaceOnUse    =   RifleSA2Recipe,
+        Icon = RifleRecipe,
+        Weight = 0.4,
+    }
+
+    item PistolB2Recipe
+    {
+        DisplayName = PistolB2Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make Pistol2,
+        ReplaceOnUse    =   PistolB2Recipe,
+        Icon = PistolRecipe,
+        Weight = 0.4,
+    }
+
+    item Revolver2Recipe
+    {
+        DisplayName = Revolver2Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make Revolver2,
+        ReplaceOnUse    =   Revolver2Recipe,
+        Icon = RevolverRecipe,
+        Weight = 0.4,
+    }
+
+    item SMG1Recipe
+    {
+        DisplayName = SMG1Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make SMG1,
+        ReplaceOnUse    =   SMG1Recipe,
+        Icon = SMGRecipe,
+        Weight = 0.4,
+    }
+
+    item SMG2Recipe
+    {
+        DisplayName = SMG2Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make SMG2,
+        ReplaceOnUse    =   SMG2Recipe,
+        Icon = SMGRecipe,
+        Weight = 0.4,
+    }
+
+    item Shotgun1Recipe
+    {
+        DisplayName = Shotgun1Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make Shotgun1,
+        ReplaceOnUse    =   Shotgun1Recipe,
+        Icon = ShotgunRecipe,
+        Weight = 0.4,
+    }
+
+    item Shotgun2Recipe
+    {
+        DisplayName = Shotgun2Recipe,
+        Type = Literature,
+        TeachedRecipes  =   Make Shotgun2,
+        ReplaceOnUse    =   Shotgun2Recipe,
+        Icon = ShotgunRecipe,
+        Weight = 0.4,
+    }
+
+
+
+
+
+item AssaultRifleM1RecipeNew
+    {
+        DisplayName = AssaultRifleM1Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = AssaultRifleRecipe,
+        Weight = 0.4,
+    }
+
+    item AssaultRifleM2RecipeNew
+    {
+        DisplayName = AssaultRifleM2Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = AssaultRifleRecipe,
+        Weight = 0.4,
+    }
+
+    item AssaultRifleAK1RecipeNew
+    {
+        DisplayName = AssaultRifleAK1Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = AssaultRifleRecipe,
+        Weight = 0.4,
+    }
+
+    item AssaultRifleAK2RecipeNew
+    {
+        DisplayName = AssaultRifleAK2Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = AssaultRifleRecipe,
+        Weight = 0.4,
+    }
+
+    item RifleB1RecipeNew
+    {
+        DisplayName = RifleB1Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = RifleRecipe,
+        Weight = 0.4,
+    }
+
+    item RifleB2RecipeNew
+    {
+        DisplayName = RifleB2Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = RifleRecipe,
+        Weight = 0.4,
+    }
+
+    item RifleSA1RecipeNew
+    {
+        DisplayName = RifleSA1Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = RifleRecipe,
+        Weight = 0.4,
+    }
+
+    item RifleSA2RecipeNew
+    {
+        DisplayName = RifleSA2Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = RifleRecipe,
+        Weight = 0.4,
+    }
+
+    item PistolB2RecipeNew
+    {
+        DisplayName = PistolB2Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = PistolRecipe,
+        Weight = 0.4,
+    }
+
+    item Revolver2RecipeNew
+    {
+        DisplayName = Revolver2Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = RevolverRecipe,
+        Weight = 0.4,
+    }
+
+    item SMG1RecipeNew
+    {
+        DisplayName = SMG1Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = SMGRecipe,
+        Weight = 0.4,
+    }
+
+    item SMG2RecipeNew
+    {
+        DisplayName = SMG2Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = SMGRecipe,
+        Weight = 0.4,
+    }
+
+    item Shotgun1RecipeNew
+    {
+        DisplayName = Shotgun1Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = ShotgunRecipe,
+        Weight = 0.4,
+    }
+
+    item Shotgun2RecipeNew
+    {
+        DisplayName = Shotgun2Recipe,
+        Type	=	Drainable,
+        UseWhileEquipped	= FALSE,
+		UseDelta		= 0.1,
+        Icon = ShotgunRecipe,
+        Weight = 0.4,
+    }
+
+
+
+
+
+    item AssaultRifleM1RecipeShard
+    {
+        Type = Normal,
+        DisplayName = AssaultRifleM1RecipeShard,
+        Icon = AssaultRifleRecipeShard,
+        Weight = 0.1,
+    }
+
+    item AssaultRifleM2RecipeShard
+    {
+        Type = Normal,
+        DisplayName = AssaultRifleM2RecipeShard,
+        Icon = AssaultRifleRecipeShard,
+        Weight = 0.1,
+    }
+
+    item AssaultRifleAK1RecipeShard
+    {
+        Type = Normal,
+        DisplayName = AssaultRifleAK1RecipeShard,
+        Icon = AssaultRifleRecipeShard,
+        Weight = 0.1,
+    }
+
+    item AssaultRifleAK2RecipeShard
+    {
+        Type = Normal,
+        DisplayName = AssaultRifleAK2RecipeShard,
+        Icon = AssaultRifleRecipeShard,
+        Weight = 0.1,
+    }
+
+    item RifleB1RecipeShard
+    {
+        Type = Normal,
+        DisplayName = RifleB1RecipeShard,
+        Icon = RifleRecipeShard,
+        Weight = 0.1,
+    }
+
+    item RifleB2RecipeShard
+    {
+        Type = Normal,
+        DisplayName = RifleB2RecipeShard,
+        Icon = RifleRecipeShard,
+        Weight = 0.1,
+    }
+
+    item RifleSA1RecipeShard
+    {
+        Type = Normal,
+        DisplayName = RifleSA1RecipeShard,
+        Icon = RifleRecipeShard,
+        Weight = 0.1,
+    }
+
+    item RifleSA2RecipeShard
+    {
+        Type = Normal,
+        DisplayName = RifleSA2RecipeShard,
+        Icon = RifleRecipeShard,
+        Weight = 0.1,
+    }
+
+    item PistolB2RecipeShard
+    {
+        Type = Normal,
+        DisplayName = PistolB2RecipeShard,
+        Icon = PistolRecipeShard,
+        Weight = 0.1,
+    }
+
+    item Revolver2RecipeShard
+    {
+        Type = Normal,
+        DisplayName = Revolver2RecipeShard,
+        Icon = RevolverRecipeShard,
+        Weight = 0.1,
+    }
+
+    item SMG1RecipeShard
+    {
+        Type = Normal,
+        DisplayName = SMG1RecipeShard,
+        Icon = SMGRecipeShard,
+        Weight = 0.1,
+    }
+
+    item SMG2RecipeShard
+    {
+        Type = Normal,
+        DisplayName = SMG2RecipeShard,
+        Icon = SMGRecipeShard,
+        Weight = 0.1,
+    }
+
+    item Shotgun1RecipeShard
+    {
+        Type = Normal,
+        DisplayName = Shotgun1RecipeShard,
+        Icon = ShotgunRecipeShard,
+        Weight = 0.1,
+    }
+
+    item Shotgun2RecipeShard
+    {
+        Type = Normal,
+        DisplayName = Shotgun2RecipeShard,
+        Icon = ShotgunRecipeShard,
+        Weight = 0.1,
+    }
+
+
+
+
+
+
+    recipe AssaultRifleM1Recipe
+    {
+        AssaultRifleM1RecipeShard = 4,
+        Result:AssaultRifleM1RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+    recipe AssaultRifleM2Recipe
+    {
+        AssaultRifleM2RecipeShard = 4,
+        Result:AssaultRifleM2RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+    recipe AssaultRifleAK1Recipe
+    {
+        AssaultRifleAK1RecipeShard = 4,
+        Result:AssaultRifleAK1RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+    recipe AssaultRifleAK2Recipe
+    {
+        AssaultRifleAK2RecipeShard = 4,
+        Result:AssaultRifleAK2RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+    recipe RifleB1Recipe
+    {
+        RifleB1RecipeShard = 4,
+        Result:RifleB1RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+    recipe RifleB2Recipe
+    {
+        RifleB2RecipeShard = 4,
+        Result:RifleB2RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+    recipe RifleSA1Recipe
+    {
+        RifleSA1RecipeShard = 4,
+        Result:RifleSA1RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+    recipe RifleSA2Recipe
+    {
+        RifleSA2RecipeShard = 4,
+        Result:RifleSA2RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+    recipe PistolB2Recipe
+    {
+        PistolB2RecipeShard = 2,
+        Result:PistolB2RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+    recipe Revolver2Recipe
+    {
+        Revolver2RecipeShard = 2,
+        Result:Revolver2RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+    recipe SMG1Recipe
+    {
+        SMG1RecipeShard = 3,
+        Result:SMG1RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+    recipe SMG2Recipe
+    {
+        SMG2RecipeShard = 3,
+        Result:SMG2RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+    recipe Shotgun1Recipe
+    {
+        Shotgun1RecipeShard = 2,
+        Result:Shotgun1RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+    recipe Shotgun2Recipe
+    {
+        Shotgun2RecipeShard = 2,
+        Result:Shotgun2RecipeNew,
+        Category:Blueprints,
+        NearItem:Research Workbench,
+        Time:800,
+    }
+
+
+
+
+
+
+recipe AssaultRifleM1RecipeNew
+    {
+        AssaultRifleM1Recipe,
+        Result:AssaultRifleM1RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+    recipe AssaultRifleM2RecipeNew
+    {
+        AssaultRifleM2Recipe,
+        Result:AssaultRifleM2RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+    recipe AssaultRifleAK1RecipeNew
+    {
+        AssaultRifleAK1Recipe,
+        Result:AssaultRifleAK1RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+    recipe AssaultRifleAK2RecipeNew
+    {
+        AssaultRifleAK2Recipe,
+        Result:AssaultRifleAK2RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+    recipe RifleB1RecipeNew
+    {
+        RifleB1Recipe,
+        Result:RifleB1RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+    recipe RifleB2RecipeNew
+    {
+        RifleB2Recipe,
+        Result:RifleB2RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+    recipe RifleSA1RecipeNew
+    {
+        RifleSA1Recipe,
+        Result:RifleSA1RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+    recipe RifleSA2RecipeNew
+    {
+        RifleSA2Recipe,
+        Result:RifleSA2RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+    recipe PistolB2RecipeNew
+    {
+        PistolB2Recipe,
+        Result:PistolB2RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+    recipe Revolver2RecipeNew
+    {
+        Revolver2Recipe,
+        Result:Revolver2RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+    recipe SMG1RecipeNew
+    {
+        SMG1Recipe,
+        Result:SMG1RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+    recipe SMG2RecipeNew
+    {
+        SMG2Recipe,
+        Result:SMG2RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+    recipe Shotgun1RecipeNew
+    {
+        Shotgun1Recipe,
+        Result:Shotgun1RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+    recipe Shotgun2RecipeNew
+    {
+        Shotgun2Recipe,
+        Result:Shotgun2RecipeNew,
+        Category:Temp,
+        Time:80,
+    }
+
+
+
+
+
+
+
+
+    recipe Search Wallet
+    {
+        Wallet/Wallet2/Wallet3/Wallet4,
+        Result:Money,
+        RemoveResultItem:true,
+        OnCreate:SearchWallet,
+        Time:50,
+        Category:Survivalist,
+    }
+
+    }

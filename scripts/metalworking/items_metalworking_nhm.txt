@@ -1,0 +1,30 @@
+module NHM
+{
+	imports
+	{
+		Base
+	}
+
+item EmptyBlowTorch
+    {
+        DisplayCategory = Tool,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Propane Torch Empty,
+        Icon	=	BlowTorch,
+        StaticModel = BlowTorch,
+        WorldStaticModel = BlowtorchGround,
+    }
+
+item EmptyPropaneTank
+	{
+	    DisplayCategory = Material,
+		Weight	=	5.0,
+		Type	=	Normal,
+		DisplayName	=	Propane Tank Empty,
+		Icon	=	PropaneTank,
+		UseWorldItem = TRUE,
+		ScaleWorldIcon = 2.0,
+		WorldStaticModel = PropaneTank,
+	}
+}

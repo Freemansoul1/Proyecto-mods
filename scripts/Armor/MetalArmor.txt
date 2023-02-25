@@ -1,0 +1,92 @@
+module Base
+{		
+
+	item MetalArmor
+   	{
+		ClothingItem = MetalArmor,
+        Type = Clothing,
+        DisplayName = Metal Armor,
+        BodyLocation = TorsoExtra,
+		CanBeEquipped = TorsoExtra,
+        Icon = MetalArmor,
+        BloodLocation = UpperBody; LowerBody,
+		ScratchDefense = 50,
+		BiteDefense = 50,
+		BulletDefense = 70,
+        Insulation = 0,
+        WindResistance = 0,
+        Weight = 4,
+        ConditionLowerChanceOneIn = 2,
+        ConditionMax = 4,
+        RemoveOnBroken = false,
+		Tooltip = "Protects your Chest",
+    }
+
+
+    item MetalLegPads
+    {
+        Type = Clothing,
+        DisplayName = Metal Knee Pads,
+        ClothingItem = MetalLegPads,
+        BodyLocation = LowerLegs,
+        BloodLocation = LowerLegs,
+        Icon = MetalLegPads,
+		ScratchDefense = 55,
+		BiteDefense = 55,
+		BulletDefense = 45,
+        Weight = 2,
+        RemoveOnBroken = false,
+		CanHaveHoles = true,
+		ConditionLowerChanceOneIn = 2,
+		ConditionMax = 4,
+		BreakSound			= BreakMetalItem,
+		Tooltip = "Protects your Shin",
+    }
+
+    item MetalBracer
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Metal Bracer,
+        ClothingItem = MetalBracer,
+        BodyLocation = LowerArms,
+        Icon = MetalBracer,
+        BloodLocation = LowerArms,
+        Insulation = 0.15,
+        WindResistance = 0.15,
+        Weight = 2,
+		ScratchDefense = 75,
+		BiteDefense = 75,
+		BulletDefense = 65,
+        RemoveOnBroken = false,
+		CanHaveHoles = true,
+		ConditionLowerChanceOneIn = 2,
+		ConditionMax = 4,
+		BreakSound			= BreakMetalItem,
+		Tooltip    =    "Protects your hand",
+    }
+
+	item Hat_MetalHelmet
+	{
+		Type = Clothing,
+		DisplayName = Metal Helmet,
+		ClothingItem = Hat_MetalHelmet,
+		BodyLocation = FullHat,
+		IconsForTexture = MetalHelmet,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		BulletDefense = 50,
+		ChanceToFall = 1,
+		Insulation = 0,
+		WaterResistance = 0.75,
+        Weight = 1.5,
+        CanHaveHoles = true,
+        RemoveOnBroken = false,
+        ConditionLowerChanceOneIn = 2,
+        ConditionMax = 4,
+        BreakSound			= BreakMetalItem,
+		Tooltip 		= "Handmade Protection of The Head From Metal",
+    }	
+}

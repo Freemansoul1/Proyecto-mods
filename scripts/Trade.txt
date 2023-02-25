@@ -1,0 +1,1559 @@
+module NHM
+{
+    imports
+    {
+        Base
+    }
+
+/*Шелк*/
+
+    recipe Silk 0 Buy Sunglasses
+    {
+        Money=4,
+	    Sound:Paper2,
+        Result:Glasses_Sun,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 0 Buy Winter Hat
+    {
+        Money=5,
+	    Sound:Paper2,
+        Result:Hat_WinterHat,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+
+    recipe Silk 0 Buy LeatherGloves
+    {
+        Money=2,
+	    Sound:Paper2,
+        Result:Gloves_LeatherGloves,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 0 Buy Skinny Leather Trousers
+    {
+        Money=8,
+	    Sound:Paper2,
+        Result:TrousersMesh_Leather,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 0 Buy Bathrobe
+    {
+        Money=8,
+	    Sound:Paper2,
+        Result:LongCoat_Bathrobe,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 0 Buy Army Coat
+    {
+        Money=12,
+	    Sound:Paper2,
+        Result:Jacket_CoatArmy,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 0 Buy Medical Coat
+    {
+        Money=6,
+	    Sound:Paper2,
+        Result:JacketLong_Doctor,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 0 Buy Military Green Camo Jacket
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:Jacket_ArmyCamoGreen,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 0 Buy Military Desert Camo Jacket
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:Jacket_ArmyCamoDesert,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 0 Buy Military Trousers
+    {
+        Money=8,
+	    Sound:Paper2,
+        Result:Trousers_ArmyService,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 0 Buy Military Trousers Camo
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:Trousers_CamoGreen,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 0 Buy Military Trousers Camo Desert
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:Trousers_CamoDesert,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 0 Buy Trousers Padded
+    {
+        Money=12,
+	    Sound:Paper2,
+        Result:Trousers_Padded,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 0 Buy Needle
+    {
+        Money=1,
+	    Sound:Paper2,
+        Result:Needle,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+   
+    recipe Silk 1 Buy Thread
+    {
+        Money=2,
+        Result:Thread,
+	    Sound:Paper2,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20.0,
+        
+    }
+
+    recipe Silk 2 Buy Tarp
+    {
+        Money=4,
+	    Sound:Paper2,
+        Result:Tarp,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 3 Buy Twine
+    {
+        Money=5,
+	    Sound:Paper2,
+        Result:Twine,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 4 Buy Rope
+    {
+        Money=6,
+	    Sound:Paper2,
+        Result:Rope,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 5 Buy EmptySandbag
+    {
+        Money=4,
+	    Sound:Paper2,
+        Result:EmptySandbag,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 6 Buy BookTailoring1
+    {
+        Money=12,
+	    Sound:Paper2,
+        Result:BookTailoring1,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 7 Buy BookTailoring2
+    {
+        Money=14,
+	    Sound:Paper2,
+        Result:BookTailoring2,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 8 Buy BookTailoring3
+    {
+        Money=16,
+	    Sound:Paper2,
+        Result:BookTailoring3,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 9 Buy BookTailoring4
+    {
+        Money=18,
+	    Sound:Paper2,
+        Result:BookTailoring4,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Silk 10 Buy BookTailoring5
+    {
+        Money=20,
+	    Sound:Paper2,
+        Result:BookTailoring5,
+        NearItem:Silk,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+/*Киоши*/
+
+    recipe Kioshi 0 Buy Hammer
+    {
+        Money=2,
+	    Sound:Paper2,
+        Result:Hammer,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Kioshi 1 Buy Saw
+    {
+        Money=3,
+	    Sound:Paper2,
+        Result:Saw,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Kioshi 1 Buy Small Sheet of Metal
+    {
+        Money=3,
+	    Sound:Paper2,
+        Result:SmallSheetMetal,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        
+    }
+
+    recipe Kioshi 2 Buy Wrench
+    {
+        Money=8,
+	    Sound:Paper2,
+        Result:Wrench,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Kioshi 2 Buy Metal Sheet
+    {
+        Money=7,
+    	Sound:Paper2,
+        Result:SheetMetal,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        
+    }
+
+    recipe Kioshi 2 Buy Handmade Filter
+    {
+        Money=2,
+    	Sound:Paper2,
+        Result:HandmadeGasMaskFilter,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        
+    }
+
+    recipe Kioshi 3 Buy Barbed Wire
+    {
+        Money=2,
+	    Sound:Paper2,
+        Result:BarbedWire,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        
+    }
+
+    recipe Kioshi 3 Buy Metal Bar
+    {
+        Money=6,
+	    Sound:Paper2,
+        Result:MetalBar,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        
+    }
+
+    recipe Kioshi 4 Buy Welding Rods
+    {
+        Money=8,
+	    Sound:Paper2,
+        Result:WeldingRods,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        
+    }
+
+        recipe Kioshi 4 Buy DuctTape
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:DuctTape,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        
+    }
+
+    recipe Kioshi 4 Buy Glue
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:Glue,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        
+    }
+
+    recipe Kioshi 4 Buy Woodglue
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:Woodglue,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        
+    }
+
+    recipe Kioshi 4 Buy Scotchtape
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:Scotchtape,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        
+    }
+
+    recipe Kioshi 4 Buy Ingot Copper
+    {
+        Money=5,
+	    Sound:Paper2,
+        Result:IngotCopper,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        SkillRequired:RepCrafts=4,
+    }
+    
+    recipe Kioshi 4 Buy Ingot Tin
+    {
+        Money=5,
+	    Sound:Paper2,
+        Result:IngotTin,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        SkillRequired:RepCrafts=4,
+    }
+
+    recipe Kioshi 4 Buy Regular Filter
+    {
+        Money=6,
+    	Sound:Paper2,
+        Result:RegularGasMaskFilter,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        
+    }
+
+    recipe Kioshi 5 Buy Box of nails
+    {
+        Money=12,
+	    Sound:Paper2,
+        Result:NailsBox,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Kioshi 5 Buy Box of screws
+    {
+        Money=12,
+	    Sound:Paper2,
+        Result:ScrewsBox,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        
+    }
+
+    recipe Kioshi 5 Buy Ingot Bronze
+    {
+        Money=8,
+	    Sound:Paper2,
+        Result:IngotBronze,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        SkillRequired:RepCrafts=5,
+    }
+
+    recipe Kioshi 6 Buy Ingot Iron
+    {
+        Money=8,
+	    Sound:Paper2,
+        Result:IngotIron,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        SkillRequired:RepCrafts=6,
+    }
+    
+    recipe Kioshi 6 Buy Ingot Lead
+    {
+        Money=8,
+	    Sound:Paper2,
+        Result:IngotLead,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        SkillRequired:RepCrafts=6,
+    }
+
+    recipe Kioshi 6 Buy Advanced Filter
+    {
+        Money=8,
+    	Sound:Paper2,
+        Result:AdvancedGasMaskFilter,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        
+    }
+
+    recipe Kioshi 7 Buy Ingot Steel
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:IngotSteel,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        SkillRequired:RepCrafts=7,
+        
+    }
+
+    recipe Kioshi 8 Buy Ingot Chromium
+    {
+        Money=12,
+	    Sound:Paper2,
+        Result:IngotChromium,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        SkillRequired:RepCrafts=8,
+    }
+
+    recipe Kioshi 8 Buy Ingot Nickel
+    {
+        Money=12,
+	    Sound:Paper2,
+        Result:IngotNickel,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        SkillRequired:RepCrafts=8,
+    }
+    
+    recipe Kioshi 6 Buy PipeSword
+    {
+        Money=18,
+	    Sound:Paper2,
+        Result:PipeSwordBlade,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        SkillRequired:RepCrafts=6,
+    }
+
+    recipe Kioshi 8 Buy Sword
+    {
+        Money=20,
+	    Sound:Paper2,
+        Result:RegularMetalSword,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        SkillRequired:RepCrafts=8,
+    }
+
+    recipe Kioshi 10 Buy Axe
+    {
+        Money=22,
+	    Sound:Paper2,
+        Result:RegularAxe,
+        Time:20,
+        NearItem:Kioshi,
+        Category:TradingBuy,
+        SkillRequired:RepCrafts=10,
+    }
+
+/*Аспирин*/
+
+    recipe Aspirin 0 Buy Bandage
+    {
+        Money=1,
+	    Sound:Paper2,
+        Result:Bandage,
+        Time:20,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        
+    }
+
+    recipe Aspirin 1 Buy SleepingTablets
+    {
+        Money=2,
+	    Sound:Paper2,
+        Result:PillsSleepingTablets,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 1 Buy Bandaid
+    {
+        Money=2,
+	    Sound:Paper2,
+        Result:Bandaid,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 1 Buy Splint
+    {
+        Money=2,
+	    Sound:Paper2,
+        Result:Splint,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 2 Buy Bottle of Disinfectant
+    {
+        Money=4,
+	    Sound:Paper2,
+        Result:Disinfectant,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 2 Buy Bottle of Vitamins
+    {
+        Money=6,
+	    Sound:Paper2,
+        Result:PillsVitamins,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=2,
+    }
+
+    recipe Aspirin 3 Buy Comfrey
+    {
+        Money=4,
+	    Sound:Paper2,
+        Result:Comfrey,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 3 Buy Ginseng
+    {
+        Money=1,
+	    Sound:Paper2,
+        Result:Ginseng,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=3,
+    }
+
+    recipe Aspirin 3 Buy WildGarlic2
+    {
+        Money=2,
+	    Sound:Paper2,
+        Result:WildGarlic2,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 3 Buy Plantain
+    {
+        Money=4,
+	    Sound:Paper2,
+        Result:Plantain,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 4 Buy AlcoholWipes
+    {
+        Money=6,
+	    Sound:Paper2,
+        Result:AlcoholWipes,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 5 Buy PillsAntiDep
+    {
+        Money=7,
+	    Sound:Paper2,
+        Result:PillsAntiDep,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 6 Buy PillsBeta
+    {
+        Money=9,
+	    Sound:Paper2,
+        Result:PillsBeta,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 7 Buy Pills
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:Pills,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 8 Buy Tweezers
+    {
+        Money=7,
+	    Sound:Paper2,
+        Result:Tweezers,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+       
+    }
+
+    recipe Aspirin 9 Buy Suture Needle
+    {
+        Money=5,
+	    Sound:Paper2,
+        Result:SutureNeedle,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 9 Buy Suture Needle Holder
+    {
+        Money=8,
+	    Sound:Paper2,
+        Result:SutureNeedleHolder,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 6 Buy BookFirstAid1
+    {
+        Money=12,
+	    Sound:Paper2,
+        Result:BookFirstAid1,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 7 Buy BookFirstAid2
+    {
+        Money=14,
+	    Sound:Paper2,
+        Result:BookFirstAid2,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 8 Buy BookFirstAid3
+    {
+        Money=16,
+	    Sound:Paper2,
+        Result:BookFirstAid3,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 9 Buy BookFirstAid4
+    {
+        Money=18,
+	    Sound:Paper2,
+        Result:BookFirstAid4,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Aspirin 10 Buy BookFirstAid5
+    {
+        Money=20,
+	    Sound:Paper2,
+        Result:BookFirstAid5,
+        NearItem:Aspirin,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+
+/*Искра*/
+
+    recipe Sparkle 0 Buy ElectricWire
+    {
+        Money=1,
+	    Sound:Paper2,
+        Result:ElectricWire,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Sparkle 1 Buy Battery
+    {
+        Money=3,
+	    Sound:Paper2,
+        Result:Battery,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Sparkle 1 Buy Watch
+    {
+        Money=1,
+	    Sound:Paper2,
+        Result:WristWatch_Right_DigitalRed,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Sparkle 2 Buy HandTorch
+    {
+        Money=4,
+	    Sound:Paper2,
+        Result:HandTorch,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Sparkle 3 Buy NoiseTrap
+    {
+        Money=4,
+	    Sound:Paper2,
+        Result:NoiseTrap,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Sparkle 4 Buy GeigerCounter
+    {
+        Money=7,
+	    Sound:Paper2,
+        Result:GeigerCounter,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=4,
+    }
+
+    recipe Sparkle 4 Buy PoisonAnalyzer
+    {
+        Money=7,
+	    Sound:Paper2,
+        Result:PoisonAnalyzer,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=4,
+    }
+
+    recipe Sparkle 5 Buy PNV
+    {
+        Money=30,
+	    Sound:Paper2,
+        Result:Hat_PNV,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=5,
+    }
+
+    recipe Sparkle 6 Buy BatteryCharger
+    {
+        Money=12,
+	    Sound:Paper2,
+        Result:BatteryCharger,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=6,
+    }
+
+    recipe Sparkle 7 Buy WalkieTalkie5
+    {
+        Money=15,
+	    Sound:Paper2,
+        Result:WalkieTalkie5,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=7,
+    }
+
+    recipe Sparkle 8 Buy CarBatteryCharger
+    {
+        Money=18,
+	    Sound:Paper2,
+        Result:CarBatteryCharger,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=8,
+    }
+
+    recipe Sparkle 9 Buy HamRadio2
+    {
+        Money=20,
+	    Sound:Paper2,
+        Result:HamRadio2,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=9,
+    }
+
+    recipe Sparkle 10 Buy Generator
+    {
+        Money=40,
+	    Sound:Paper2,
+        Result:Generator,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=10,
+    }
+
+    recipe Sparkle 6 Buy BookElectrician1
+    {
+        Money=12,
+	    Sound:Paper2,
+        Result:BookElectrician1,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Sparkle 7 Buy BookElectrician2
+    {
+        Money=14,
+	    Sound:Paper2,
+        Result:BookElectrician2,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Sparkle 8 Buy BookElectrician3
+    {
+        Money=16,
+	    Sound:Paper2,
+        Result:BookElectrician3,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Sparkle 9 Buy BookElectrician4
+    {
+        Money=18,
+	    Sound:Paper2,
+        Result:BookElectrician4,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Sparkle 10 Buy BookElectrician5
+    {
+        Money=20,
+	    Sound:Paper2,
+        Result:BookElectrician5,
+        NearItem:Sparkle,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+
+/*Ищейка*/
+
+    recipe Hound 1 Buy CBow
+    {
+        Money=8,
+	    Sound:Paper2,
+        Result:CBow,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=1,
+    }
+
+    recipe Hound 2 Buy Bone
+    {
+        Money=1,
+    	Sound:Paper2,
+        Result:Bone,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+       
+    }
+
+    recipe Hound 3 Buy Fat
+    {
+        Money=2,
+    	Sound:Paper2,
+        Result:Fat,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Hound 3 Buy Wool
+    {
+        Money=2,
+    	Sound:Paper2,
+        Result:Wool,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Hound 3 Buy FoldingKnife
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:FoldingKnife,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=3,
+    }
+
+    recipe Hound 3 Buy MetalFlaskEmpty
+    {
+        Money=6,
+	    Sound:Paper2,
+        Result:MetalFlaskEmpty,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=3,
+    }
+
+    recipe Hound 4 Buy TrapSnare
+    {
+        Money=5,
+    	Sound:Paper2,
+        Result:TrapSnare,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Hound 5 Buy TrapStick
+    {
+        Money=6,
+    	Sound:Paper2,
+        Result:TrapStick,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Hound 6 Buy TrapBox
+    {
+        Money=7,
+	    Sound:Paper2,
+        Result:TrapBox,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Hound 7 Buy TrapCrate
+    {
+        Money=8,
+    	Sound:Paper2,
+        Result:TrapCrate,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Hound 8 Buy TrapCage
+    {
+        Money=10,
+    	Sound:Paper2,
+        Result:TrapCage,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Hound 9 Buy FishingNet
+    {
+        Money=14,
+	    Sound:Paper2,
+        Result:FishingNet,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Hound 6 Buy BookTrapping1
+    {
+        Money=12,
+	    Sound:Paper2,
+        Result:BookTrapping1,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Hound 7 Buy BookTrapping2
+    {
+        Money=14,
+	    Sound:Paper2,
+        Result:BookTrapping2,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Hound 8 Buy BookTrapping3
+    {
+        Money=16,
+	    Sound:Paper2,
+        Result:BookTrapping3,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Hound 9 Buy BookTrapping4
+    {
+        Money=18,
+	    Sound:Paper2,
+        Result:BookTrapping4,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Hound 10 Buy BookTrapping5
+    {
+        Money=20,
+	    Sound:Paper2,
+        Result:BookTrapping5,
+        NearItem:Hound,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+/*Ботан*/
+
+    recipe Nerd 1 Buy Coldpack
+    {
+        Money=2,
+    	Sound:Paper2,
+        Result:Coldpack,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Nerd 1 Buy Soap2
+    {
+        Money=2,
+    	Sound:Paper2,
+        Result:Soap2,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Nerd 2 Buy FlaskNitricAcid
+    {
+        Money=4,
+	    Sound:Paper2,
+        Result:FlaskNitricAcid,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=2,
+    }
+
+    recipe Nerd 3 Buy Vinegar
+    {
+        Money=6,
+    	Sound:Paper2,
+        Result:Vinegar,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=3,
+    }
+
+    recipe Nerd 4 Buy FlaskCatalyst
+    {
+        Money=8,
+	    Sound:Paper2,
+        Result:FlaskCatalyst,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=4,
+    }
+
+    recipe Nerd 4 Buy FlaskPotassiumNitrate
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:FlaskPotassiumNitrate,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=4,
+    }
+
+    recipe Nerd 5 Buy Bleach
+    {
+        Money=6,
+    	Sound:Paper2,
+        Result:Bleach,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Nerd 5 Buy FlaskAmmonia
+    {
+        Money=14,
+    	Sound:Paper2,
+        Result:FlaskAmmonia,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=5,
+    }
+
+    recipe Nerd 5 Buy FlaskFungalSpores
+    {
+        Money=8,
+    	Sound:Paper2,
+        Result:FlaskFungalSpores,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=5,
+    }
+
+    recipe Nerd 6 Buy Fertilizer
+    {
+        Money=5,
+	    Sound:Paper2,
+        Result:Fertilizer,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        
+    }
+
+    recipe Nerd 6 Buy FlaskAlkali
+    {
+        Money=14,
+	    Sound:Paper2,
+        Result:FlaskAlkali,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=6,
+    }
+
+    recipe Nerd 7 Buy FlaskSulphuricAcid
+    {
+        Money=16,
+    	Sound:Paper2,
+        Result:FlaskSulphuricAcid,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=7,
+    }
+
+    recipe Nerd 7 Buy FlaskSalicylate
+    {
+        Money=12,
+	    Sound:Paper2,
+        Result:FlaskSalicylate,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=7,
+    }
+
+    recipe Nerd 8 Buy FlaskChloricAcid
+    {
+        Money=18,
+	    Sound:Paper2,
+        Result:FlaskChloricAcid,
+        NearItem:Nerd,
+        Category:TradingBuy,
+        Time:20,
+        SkillRequired:RepCrafts=8,
+    }
+
+/*Каин и Авель*/
+
+    recipe Cain 2 Buy Iron Sight
+    {
+        Money=8,
+    	Sound:Paper2,
+        Result:Muzzle,
+        Time:20,
+        NearItem:Cain,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=2,
+    }
+
+    recipe Cain 4 Buy 2x Scope
+    {
+        Money=20,
+	    Sound:Paper2,
+        Result:2Scope,
+        Time:20,
+        NearItem:Cain,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=4,
+    }
+
+    recipe Cain 6 Buy 4x Scope
+    {
+        Money=40,
+	    Sound:Paper2,
+        Result:4Scope,
+        Time:20,
+        NearItem:Cain,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=6,
+    }
+
+    recipe Cain 8 Buy 8x Scope
+    {
+        Money=80,
+	    Sound:Paper2,
+        Result:8Scope,
+        Time:20,
+        NearItem:Cain,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=8,
+    }
+
+    recipe Cain 3 Buy Improved Stock
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:ImprovedStock,
+        Time:20,
+        NearItem:Cain,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=3,
+    }
+
+    recipe Cain 5 Buy Holosight
+    {
+        Money=16,
+	    Sound:Paper2,
+        Result:Holosight,
+        Time:20,
+        NearItem:Cain,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=5,
+    }
+
+    recipe Cain 7 Buy Compensator
+    {
+        Money=14,
+	    Sound:Paper2,
+        Result:MuzzleCompensator,
+        Time:20,
+        NearItem:Cain,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=7,
+    }
+
+
+
+
+    recipe Abel 2 Buy Choke Tube Full
+    {
+        Money=8,
+	    Sound:Paper2,
+        Result:ChokeTubeFullNH,
+        Time:20,
+        NearItem:Abel,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=2,
+    }
+
+    recipe Abel 2 Buy SlingRope
+    {
+        Money=8,
+	    Sound:Paper2,
+        Result:SlingRope,
+        Time:20,
+        NearItem:Abel,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=2,
+    }
+
+    recipe Abel 3 Buy Choke Tube Improved
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:ChokeTubeImprovedNH,
+        Time:20,
+        NearItem:Abel,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=3,
+    }
+
+    recipe Abel 3 Buy SlingLeather
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:SlingLeather,
+        Time:20,
+        NearItem:Abel,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=3,
+    }
+
+    recipe Abel 4 Buy Bipod
+    {
+        Money=15,
+	    Sound:Paper2,
+        Result:Bipod,
+        Time:20,
+        NearItem:Abel,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=4,
+    }
+
+    recipe Abel 5 Buy Insurgent Pistol 
+    {
+        Money=30,
+	    Sound:Paper2,
+        Result:PistolB1,
+        Time:20,
+        NearItem:Abel,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=5,
+    }
+
+    recipe Abel 5 Buy 9mm Ammo box 
+    {
+        Money=15,
+	    Sound:Paper2,
+        Result:Bullets9mmBox,
+        Time:20,
+        NearItem:Abel,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=5,
+    }
+
+    recipe Abel 5 Buy Pistol mag
+    {
+        Money=10,
+	    Sound:Paper2,
+        Result:PistolMag,
+        Time:20,
+        NearItem:Abel,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=5,
+    }
+
+    recipe Abel 6 Buy Rebel Revolver
+    {
+        Money=40,
+	    Sound:Paper2,
+        Result:Revolver1,
+        Time:20,
+        NearItem:Abel,
+        Category:TradingBuy,
+        SkillRequired:RepArmy=6,
+    }
+
+
+}
