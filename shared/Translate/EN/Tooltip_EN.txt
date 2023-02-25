@@ -1,0 +1,5 @@
+Tooltip_EN = {
+	Tooltip_QuiverCarry = "Allows You to Carry Arrows With Less Weight",
+
+
+}

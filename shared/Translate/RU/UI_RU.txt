@@ -1,0 +1,47 @@
+UI_RU = {
+	UI_Cant_Disassemble = "Не могу разбирать мебель",
+	UI_TooBigBuilding = "Здание слишком большое!",
+	UI_Text_TooManyFloors = "Здание выше двух этажей!",
+	UI_IMissed = "Зверь скрылся...",
+	UI_FakeInf = "Уровень облучения: ",
+	UI_prof_Chemist = "Химик",
+	UI_prof_Weaponer = "Оружейник",
+	UI_prof_Leatherman = "Кожевник",
+	UI_prof_Survivor = "Пилигрим",
+	UI_trait_task_start_med = "Вы выполняете задание (Доктора)",
+	UI_trait_task_start_army = "Вы выполняете задание (Военные)",
+	UI_trait_task_start_artisan = "Вы выполняете задание (Ремесленники)",
+
+
+	UI_trait_quest_cd = "Кулдаун на квесты (Каин и Авель)",
+	UI_trait_quest_cd1 = "Кулдаун на поиск схрона (осталось 4 часа)",
+	UI_trait_quest_cd1_r1 = "Кулдаун на поиск схрона (осталось 3 часа)",
+	UI_trait_quest_cd1_r2 = "Кулдаун на поиск схрона (осталось 2 часа)",
+	UI_trait_quest_cd1_r3 = "Кулдаун на поиск схрона (остался 1 час)",
+
+	UI_trait_quest_cd_sp = "Кулдаун на квесты (Искра)",
+	UI_trait_quest_cd_si = "Кулдаун на квесты (Шелк)",
+	UI_trait_quest_cd_ki = "Кулдаун на квесты (Киоши)",
+	UI_trait_quest_cd_ho = "Кулдаун на квесты (Ищейка)",
+	UI_trait_quest_cd_as = "Кулдаун на квесты (Аспирин)",
+	UI_trait_quest_cd_ne = "Кулдаун на квесты (Ботан)",
+
+
+	UI_trait_cannibal = "Каннибал",
+	UI_trait_cannibal_desc = "При разделке трупа имеет шанс найти что-нибудь съедобное",
+	UI_trait_inert = "Неэнергичный",
+	UI_trait_inert_desc = "Энергия накапливается медленнее",
+	UI_trait_miner = "Шахтер",
+	UI_trait_miner_desc = "Ресурсные точки, для которых нужна Кирка, дают больше ресурсов",
+	UI_QuestWindow = "Окно взаимодействия с NPC",
+
+	UI_ContextMenu_Healthy = "Здоров",
+	UI_ContextMenu_Infected = "Заражен",
+	UI_ContextMenu_Test = "Проверить",
+	UI_ContextMenu_Inject = "Вколоть",
+	UI_ContextMenu_Apply = "Применить",
+
+	UI_Treasure = "До цели: ",
+
+	UI_OnConnectFailed_InvalidSteamAccount = "Дружочек, ты аккаунтом ошибся",
+}
